@@ -1,0 +1,47 @@
+
+*{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Apply styles to the <h1> element */
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Add styles for buttons and hover effects */
+button {
+    color: rgba(0, 0, 0, 0.999);
+    text-decoration: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+a, button, input[type="submit"], input[type="button"] {
+    outline: none;
+    box-shadow: 0 0 5px rgb(121, 101, 153);
+}
+
+/* Example: Adding alt text to images for accessibility */
+img {
+    alt: "Image Description";
+}
+
+
+
+
+/* Add styles for smaller screens */
+@media (max-width: 768px) {
+    /* Example media query styles */
+    body {
+        font-size: 16px;
+    }
+}
